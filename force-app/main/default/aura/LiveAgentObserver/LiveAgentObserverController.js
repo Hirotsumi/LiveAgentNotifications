@@ -1,7 +1,7 @@
 ({
     onNewMessage: function(cmp, evt, helper) {
-        var content = evt.getParam('content');
-        var timestamp = evt.getParam('timestamp');
+        const content = evt.getParam('content');
+        const timestamp = evt.getParam('timestamp');
         const title = 'Nova mensagem';
 
         if ("Notification" in window) {
